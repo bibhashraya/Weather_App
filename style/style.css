@@ -27,6 +27,34 @@ body{
     padding-top: 80px;
 
 }
+form{
+    margin-top: 10px;
+}
 input#search {
-    font-size: 18px;
+    font-size: 17px;
+    width: 250px;
+    height: 27px;
+    border-bottom-color: antiquewhite;
+    background-color: unset;
+    border-left: 1px solid transparent;
+    border-radius: -1px 0 0 19px;
+    border-right: 2px solid #e5e2df;
+    border-top: 1px solid transparent;
+    margin-left: 10px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+ 
+::placeholder{
+    color: rgb(197, 211, 222);
+}
+
+button{
+    font-size: 15px;
+    width: 62px;
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 23px;
+    height: 28px;
 }
