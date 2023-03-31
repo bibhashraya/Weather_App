@@ -2,9 +2,31 @@
 *{
     padding: 0%;
     margin: 0%;
-    background-color: #1C9CF6;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(87252.jpg);
 }
 .heading{
     color: aliceblue;
-    font-family: 'Golos Text', sans-serif
+    font-family: 'Golos Text', sans-serif;
+}
+.container0{
+    display: flex;
+    flex-direction: column;
+  }
+.container0{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 156px;
+    font-size: 25px;
+}
+.container1{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+}
+input#search {
+    font-size: 18px;
 }
