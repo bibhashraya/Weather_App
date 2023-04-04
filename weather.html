@@ -14,17 +14,30 @@
         <div class="container0">
           <h1 class="heading"> Weather  Application </h1>
           <form class="loc" id="form">
-            <input type="text" placeholder=" Search for a city" id="search">
+            <input type="text" placeholder="Search for a city" id="search">
             <button type="submit">Search</button>
             <span class="msg"></span>
           </form>
         </div>
 
-        <div class="container1">
+        <div class="card">
           <div class="weather-details">
             <h2 id="title"></h2>
+            <div class="time">
+            <h3 id="date"></h3>
+            <h3 id="time"></h3>
+            </div>
             <h3 id="temperature"></h3>
-            <h3 id="weather"></h3>
+            <div class="img">
+              
+              <img src="https://openweathermap.org/img/wn/01n.png" class="icon">
+              <h3 id="weather"></h3>
+             
+            </div>   
+            <div class="humid">
+            <h4 id="Humidity"></h4>
+            <h4 id="Wind"></h4>
+           </div>
           </div>
         </div>
         <script src="weather.js"></script>

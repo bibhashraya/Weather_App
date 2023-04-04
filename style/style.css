@@ -14,21 +14,17 @@ body{
 .container0{
     display: flex;
     flex-direction: column;
-  }
-.container0{
     max-width: 500px;
     margin: 0 auto;
     padding-top: 156px;
     font-size: 25px;
 }
-.container1{
-    max-width: 400px;
-    margin: 0 auto;
-    padding-top: 80px;
-
-}
 form{
-    margin-top: 10px;
+    margin-top: 25px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: initial;
+    align-self: center;
 }
 input#search {
     font-size: 17px;
@@ -45,8 +41,12 @@ input#search {
     color: aliceblue;
 
 }
+button:hover{
+    background-color: rgb(139, 139, 251);
+    color: aliceblue;
+    cursor: pointer;
+}
 
- 
 ::placeholder{
     color: rgb(197, 211, 222);
 }
@@ -57,4 +57,72 @@ button{
     border-bottom-right-radius: 22px;
     border-top-right-radius: 23px;
     height: 28px;
+}
+.card{
+    margin: 25px auto;
+    padding:22px 30px 30px 40px;
+    color: #ffffff9c; 
+    background: #8a8888c1;
+    background-blend-mode: color-burn;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+   
+}
+h3#weather {
+    font-size: 33px;
+}
+.img{
+    display: flex;
+    flex-direction:row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+img.icon {
+    max-width: 100%;
+    width: 101px;
+    max-height: 100%;
+    height: 13vh;
+}
+.weather-details h2 {
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+    color: rgb(207, 200, 200);
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.time{
+    display: flex;
+    flex-direction: column-reverse;
+    color: #ffffff9c;
+    font-family: sans-serif;
+    justify-content: right;
+    color: #ffffff9c;;
+    
+}
+h3#date {
+    justify-content: end;
+    display: flex;
+}
+h3#time {
+    justify-content: end;
+    display: flex;
+}
+.card{
+    font-family: sans-serif;
+    
+}
+#temperature{
+    color: #ffffff9c;
+    font-size: 40px;
+    
+}
+.humid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
 }
