@@ -4,13 +4,16 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
 body{
     background-image:url(87252.jpg);
 }
+
 .heading{
     color: aliceblue;
     font-family: 'Golos Text', sans-serif;
 }
+
 .container0{
     display: flex;
     flex-direction: column;
@@ -19,6 +22,7 @@ body{
     padding-top: 156px;
     font-size: 25px;
 }
+
 form{
     margin-top: 25px;
     margin-top: 25px;
@@ -26,6 +30,7 @@ form{
     flex-direction: initial;
     align-self: center;
 }
+
 input#search {
     font-size: 17px;
     width: 250px;
